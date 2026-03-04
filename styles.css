@@ -179,3 +179,16 @@ p {
   top: -200%;
   left: 50vw;
 }
+
+.firstline {
+  position: absolute;
+  top: 12vw;
+  right: -8.5vw;
+
+}
+
+.secondline {
+  position: absolute;
+  right: 95vw;
+  top: 35vw;
+}
