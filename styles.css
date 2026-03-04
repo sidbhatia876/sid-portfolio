@@ -4,6 +4,8 @@
 
 body {
   overflow-x: hidden;
+  margin: 0;
+  background-color: #ff6d12;
 }
 
 .name {
@@ -43,28 +45,21 @@ h1 {
 
 .navbar {
   background-color: red;
-  color: white;
   width: 100vw;
   height: 7vw;
   margin: -30vw 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 100;
   font-size: 5vw;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 a {
   text-decoration: none;
   color: white;
-}
-
-body {
-  margin: 0;
-  background-color: #ff6d12;
 }
 
 .thermalbg {
@@ -140,4 +135,47 @@ body {
   text-align: right;
   position: relative;
   right: -10px;
+}
+
+p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+.abouttext {
+  font-size: 2.2vw;
+  position: relative;
+  padding-right: 37vw;
+  text-align: justify;
+  top: -12vw;
+}
+
+.line {
+  width: 50vw;
+  height: 0.2vw;
+  background-color: white;
+  transform: translate(50%, 0%);
+  position: relative;
+}
+
+.line::before {
+  content: "";
+  height: 1vw;
+  width: 1vw;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -200%;
+}
+
+.line::after {
+  content: "";
+  height: 1vw;
+  width: 1vw;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -200%;
+  left: 50vw;
 }
