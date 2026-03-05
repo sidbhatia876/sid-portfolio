@@ -152,11 +152,12 @@ p {
 }
 
 .line {
-  width: 50vw;
+  min-width: 50vw;
   height: 0.2vw;
   background-color: white;
   transform: translate(50%, 0%);
   position: relative;
+   display: flex;
 }
 
 .line::before {
@@ -191,4 +192,32 @@ p {
   position: absolute;
   right: 95vw;
   top: 35vw;
+}
+
+.bottomline {
+  scale: 150%;
+  margin-top: 2vw;
+  display: flex;
+  justify-content: left;
+}
+
+.footer {
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  width: 100vw;
+  height: 25vw;
+  background: red;
+  padding: 3vw;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.email {
+  display: flex;
+  justify-content: right;
+}
+
+.footernav {
+  display: flex;
+  justify-content: right;
 }
