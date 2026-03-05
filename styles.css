@@ -221,3 +221,17 @@ p {
   display: flex;
   justify-content: right;
 }
+
+.logos {
+  display: flex;
+  justify-content: left;
+  gap: 2vw;
+  position: relative;
+  bottom: 6vw;
+}
+
+.logos img {
+  width: 5vw;
+  height: auto;
+  
+}
