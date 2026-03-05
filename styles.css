@@ -47,7 +47,6 @@ h1 {
   background-color: red;
   width: 100vw;
   height: 7vw;
-  margin: -30vw 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,7 +105,15 @@ a {
   object-fit: cover;
   position: relative;
   left: 42vw;
-  margin-top: -10.7vw;
+}
+
+.home .slider {
+    margin-top: -10vw;
+}
+
+.works .slider {
+    margin-top: 4.5vw;
+   margin-bottom: 4.5vw;
 }
 
 .slides {
@@ -210,6 +217,7 @@ p {
   padding: 3vw;
   box-sizing: border-box;
   position: relative;
+  
 }
 
 .email {
@@ -232,5 +240,8 @@ p {
 .logos img {
   width: 5vw;
   height: auto;
-  
+}
+
+.home .navbar {
+  margin-top: -30vw;
 }
