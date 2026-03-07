@@ -380,3 +380,9 @@ iframe {
 .contact br {
   line-height: 2vw;
 }
+
+.contact body {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
