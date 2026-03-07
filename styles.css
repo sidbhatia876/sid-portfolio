@@ -103,17 +103,19 @@ a {
 .slider {
   width: 70%;
   object-fit: cover;
-  position: relative;
-  left: 42vw;
 }
 
 .home .slider {
     margin-top: -10vw;
+  position: relative;
+  left: 42vw;
 }
 
 .works .slider {
-    margin-top: 4.5vw;
+    margin-top: 1vw;
    margin-bottom: 4.5vw;
+  position: relative;
+  right: 5vw;
 }
 
 .slides {
@@ -244,4 +246,37 @@ p {
 
 .home .navbar {
   margin-top: -30vw;
+}
+
+.photoheader {
+  font-size: 5vw;
+  position: relative;
+}
+
+.writingheader {
+  font-size: 5vw;
+  position: relative;
+  text-align: right;
+}
+
+iframe {
+  width: 50vw;
+  height: 30vw;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  border-width: .75vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.sampleright {
+  display: flex;
+  position: relative;
+  left: 47.5vw;
+}
+.sampleleft {
+  display: flex;
+  position: relative;
+  left: 1vw;
 }
