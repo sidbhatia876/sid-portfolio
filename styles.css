@@ -5,7 +5,7 @@
 body {
   overflow-x: hidden;
   margin: 0;
-  background-color: #ff6d12;
+  background-color: black;
 }
  
 .name {
@@ -160,13 +160,21 @@ p {
   top: -12vw;
 }
 
-.line {
+.home .line, .works .line {
   min-width: 50vw;
   height: 0.2vw;
   background-color: white;
   transform: translate(50%, 0%);
   position: relative;
    display: flex;
+}
+
+.contact .line {
+  min-width: 50vw;
+  height: 0.2vw;
+  background-color: white;
+  position: relative;
+  display: flex;
 }
 
 .line::before {
@@ -319,4 +327,56 @@ iframe {
   border-width: .75vw;
   bottom: 0%;
   left: 108.5%
+}
+
+
+.contactbox {
+  min-width: 80vw;
+  min-height: 50vw;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  border-width: .75vw;
+}
+
+
+.contact .logos {
+  scale: 150%;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact p {
+  font-size: 2.5vw;
+}
+
+.contact h1 {
+  font-size: 4.5vw;
+}
+
+.linkedin, .insta {
+  width: 5vw;
+}
+
+.logos2{
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.contact br {
+  line-height: 2vw;
 }
