@@ -7,7 +7,7 @@ body {
   margin: 0;
   background-color: #ff6d12;
 }
-
+ 
 .name {
   width: 100vw;
   height: 70vw;
@@ -318,5 +318,5 @@ iframe {
   border-color: white;
   border-width: .75vw;
   bottom: 0%;
-  left: 108%
+  left: 108.5%
 }
