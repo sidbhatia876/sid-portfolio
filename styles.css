@@ -280,3 +280,43 @@ iframe {
   position: relative;
   left: 1vw;
 }
+
+.textright {
+  text-align: right;
+  font-size: 2.5vw;
+}
+
+.textleft {
+  text-align: left;
+  font-size: 2.5vw;
+}
+
+.slidertext {
+  margin-top: -3vw;
+}
+
+#chiphotography {
+  left: 40vw;
+}
+
+.campusvertical {
+  width: 46%;
+  position: absolute;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  border-width: .75vw;
+  bottom: 0%;
+  right: 105%
+}
+
+.japanvertical {
+  width: 46%;
+  position: absolute;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  border-width: .75vw;
+  bottom: 0%;
+  left: 108%
+}
